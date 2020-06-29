@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comfy House Products</title>
+    <!-- Font Awesome kit -->
+    <script src="js/font.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="spread-overlay"></div>
+
+    <!-- Navbar -->
+    <nav id="navbar">
+      <div class="container">
+        <div class="nav">
+          <div class="dropdown">
+            <i class="fas fa-bars"></i>
+          </div>
+          <h2 class="heading">
+            C o m f y <span class="text-primary"> H o u s e </span>
+          </h2>
+          <div class="cart" id="cart">
+            <i class="fas fa-cart-plus"></i>
+            <p class="purchase" id="purchase">0</p>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Showcase -->
+    <section class="showcase">
+      <div class="well">
+        <h1>FURNITURE COLLECTION</h1>
+        <button class="btn btn-primary" id="shop-now">SHOP NOW</button>
+      </div>
+    </section>
+
+    <!-- Showcase-items -->
+    <section class="showcase-items" id="showcase-items">
+      <div class="container">
+        <h1 class="head text-center">Our Products</h1>
+        <div class="item-wrap">
+          <div class="card">
+            <div class="image-wrap">
+              <h4 class="btn-primary text-center cart-info">
+                <i class="fas fa-shopping-cart"></i>
+                &nbsp; ADD TO CART
+              </h4>
+            </div>
+            <div class="detail-wrap">
+              <h4 class="text-center">Queen Panel Bed</h4>
+              <h4 class="text-primary text-center">$10.99</h4>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="image-wrap">
+              <h4 class="btn-primary text-center cart-info">
+                <i class="fas fa-shopping-cart"></i>
+                &nbsp; ADD TO CART
+              </h4>
+            </div>
+            <div class="detail-wrap">
+              <h4 class="text-center">King Panel Bed</h4>
+              <h4 class="text-primary text-center">$12.99</h4>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="image-wrap">
+              <h4 class="btn-primary text-center cart-info">
+                <i class="fas fa-shopping-cart"></i>
+                &nbsp; ADD TO CART
+              </h4>
+            </div>
+            <div class="detail-wrap">
+              <h4 class="text-center">Single Panel Bed</h4>
+              <h4 class="text-primary text-center">$12.99</h4>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="image-wrap">
+              <h4 class="btn-primary text-center cart-info">
+                <i class="fas fa-shopping-cart"></i>
+                &nbsp; ADD TO CART
+              </h4>
+            </div>
+            <div class="detail-wrap">
+              <h4 class="text-center">Twin Panel Bed</h4>
+              <h4 class="text-primary text-center">$22.99</h4>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="image-wrap">
+              <h4 class="btn-primary text-center cart-info">
+                <i class="fas fa-shopping-cart"></i>
+                &nbsp; ADD TO CART
+              </h4>
+            </div>
+            <div class="detail-wrap">
+              <h4 class="text-center">Fridge</h4>
+              <h4 class="text-primary text-center">$88.99</h4>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="image-wrap">
+              <h4 class="btn-primary text-center cart-info">
+                <i class="fas fa-shopping-cart"></i>
+                &nbsp; ADD TO CART
+              </h4>
+            </div>
+            <div class="detail-wrap">
+              <h4 class="text-center">Dresser</h4>
+              <h4 class="text-primary text-center">$32.99</h4>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="image-wrap">
+              <h4 class="btn-primary text-center cart-info">
+                <i class="fas fa-shopping-cart"></i>
+                &nbsp; ADD TO CART
+              </h4>
+            </div>
+            <div class="detail-wrap">
+              <h4 class="text-center">Couch</h4>
+              <h4 class="text-primary text-center">$45.99</h4>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="image-wrap">
+              <h4 class="btn-primary text-center cart-info">
+                <i class="fas fa-shopping-cart"></i>
+                &nbsp; ADD TO CART
+              </h4>
+            </div>
+            <div class="detail-wrap">
+              <h4 class="text-center">Table</h4>
+              <h4 class="text-primary text-center">$33.99</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hidden Cart -->
+    <section id="cart-list">
+      <i class="fas fa-window-close" id="close"></i>
+      <h3 class="text-center">Your Cart</h3>
+      <ul id="list-cart-items"></ul>
+      <h3 class="text-center">
+        Your Total :$ <span id="sum-total">00.00</span>
+      </h3>
+      <button class="btn btn-primary" id="clear-cart">CLEAR CART</button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p class="text-center">Copyright &copy; 2020, All Rights Reserved</p>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
